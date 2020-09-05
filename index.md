@@ -9,6 +9,18 @@
 <hr>
 <hr><br><br>
 
+<hr>
+### Donations
+<hr>
+Please donate to keep this project running.<br>
+<p>
+  <a target="_blank" href="https://dashboard.flutterwave.com/donate/cejpesniqs3f">
+      <img src="https://image.flaticon.com/icons/svg/3090/3090757.svg" alt="donate">
+  </a>
+</p>
+<hr><br>
+
+
 ### Sample Codes
 <b>Address:</b> AK-484-9321 or AK4849321<br><br>
 
