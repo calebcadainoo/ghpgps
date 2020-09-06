@@ -1,5 +1,11 @@
 ## GhanaPostGPS Public API
 <hr>
+### Whitepaper
+<hr>
+<p><a target="_blank" href="http://dx.doi.org/10.13140/RG.2.2.24355.27684">Read Now</a></p>
+<hr><br>
+
+<hr>
 ### API Details
 <hr>
 <b>End Point URL:</b> https://ghpgps.herokuapp.com<br>
@@ -19,11 +25,6 @@ Please donate to keep this project running. <br>
 <hr><br>
 
 <hr>
-### Whitepaper
-<hr>
-<p><a target="_blank" href="http://dx.doi.org/10.13140/RG.2.2.24355.27684">Read Now</a></p>
-<hr><br>
-
 ### Sample Codes
 <b>Address:</b> AK-484-9321 or AK4849321<br><br>
 
