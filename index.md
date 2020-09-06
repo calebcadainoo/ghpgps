@@ -2,7 +2,7 @@
 <hr><hr>
 ### Whitepaper
 <hr>
-<p><a target="_blank" href="http://dx.doi.org/10.13140/RG.2.2.24355.27684">Read Now</a></p>
+<p><a target="_blank" href="http://dx.doi.org/10.13140/RG.2.2.24355.27684/1">Read Now</a></p>
 <hr><br>
 
 <hr>
@@ -23,6 +23,47 @@ Please donate to keep this project running. <br>
 <b>Content-Type:</b> application/x-www-form-urlencoded<br>
 <hr>
 <hr><br><br>
+<hr><hr>
+#### Output/Response:
+<hr>
+1. Address found
+```
+{
+    "data": {
+        "Table": [
+            {
+                "Area": "NEW KAGYASI",
+                "CenterLatitude": 6.650080145273592,
+                "CenterLongitude": -1.648700346667856,
+                "District": "Kumasi",
+                "EastLat": 6.65005768739201,
+                "EastLong": -1.6486780409076,
+                "GPSName": "AK4849321",
+                "NorthLat": 6.65010262239948,
+                "NorthLong": -1.6487229566718,
+                "PostCode": "AK484",
+                "Region": "Ashanti",
+                "SouthLat": 6.65005768739201,
+                "SouthLong": -1.6487229566718,
+                "Street": "Kumasi, Ashanti, GHA",
+                "WestLat": 6.65010262239948,
+                "WestLong": -1.6486780409076
+            }
+        ]
+    },
+    "found": true
+}
+```
+
+2. Address not found
+```
+{
+    "data": {
+        "Table": null
+    },
+    "found": false
+}
+```
 
 
 <hr>
@@ -260,44 +301,3 @@ $response | ConvertTo-Json
 ```
 <hr><br>
 
-<hr><hr>
-#### Output/Response:
-<hr>
-1. Address found
-```
-{
-    "data": {
-        "Table": [
-            {
-                "Area": "NEW KAGYASI",
-                "CenterLatitude": 6.650080145273592,
-                "CenterLongitude": -1.648700346667856,
-                "District": "Kumasi",
-                "EastLat": 6.65005768739201,
-                "EastLong": -1.6486780409076,
-                "GPSName": "AK4849321",
-                "NorthLat": 6.65010262239948,
-                "NorthLong": -1.6487229566718,
-                "PostCode": "AK484",
-                "Region": "Ashanti",
-                "SouthLat": 6.65005768739201,
-                "SouthLong": -1.6487229566718,
-                "Street": "Kumasi, Ashanti, GHA",
-                "WestLat": 6.65010262239948,
-                "WestLong": -1.6486780409076
-            }
-        ]
-    },
-    "found": true
-}
-```
-
-2. Address not found
-```
-{
-    "data": {
-        "Table": null
-    },
-    "found": false
-}
-```
