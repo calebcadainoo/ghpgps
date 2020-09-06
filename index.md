@@ -19,9 +19,9 @@ Please donate to keep this project running. <br>
 <hr><br>
 
 <hr>
-### Read Whitepaper
+### Whitepaper
 <hr>
-<p><a target="_blank" href="http://dx.doi.org/10.13140/RG.2.2.24355.27684">Read</a></p>
+<p><a target="_blank" href="http://dx.doi.org/10.13140/RG.2.2.24355.27684">Read Now</a></p>
 <hr><br>
 
 ### Sample Codes
