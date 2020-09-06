@@ -21,9 +21,8 @@ Please donate to keep this project running. <br>
 <b>Method:</b> POST<br>
 <b>Parameters:</b> address (GhanaPostGPS Address)<br>
 <b>Content-Type:</b> application/x-www-form-urlencoded<br>
-<hr>
 <hr><br><br>
-<hr><hr>
+<hr>
 #### Output/Response:
 <hr>
 1. Address found
@@ -64,7 +63,7 @@ Please donate to keep this project running. <br>
     "found": false
 }
 ```
-
+<hr><hr><br><br>
 
 <hr>
 ### Sample Codes
