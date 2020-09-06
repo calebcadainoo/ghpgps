@@ -1,11 +1,20 @@
 ## GhanaPostGPS Public API
-<hr>
+<hr><hr>
 ### Whitepaper
 <hr>
 <p><a target="_blank" href="http://dx.doi.org/10.13140/RG.2.2.24355.27684">Read Now</a></p>
 <hr><br>
 
 <hr>
+### Donations
+<hr>
+Please donate to keep this project running. <br>
+<p>
+  <a target="_blank" href="https://dashboard.flutterwave.com/donate/cejpesniqs3f"><img src="https://image.flaticon.com/icons/svg/3090/3090757.svg" style="width: 50px; height: auto;" alt="donate"></a>
+</p>
+<hr><hr><br><br><br>
+
+<hr><hr>
 ### API Details
 <hr>
 <b>End Point URL:</b> https://ghpgps.herokuapp.com<br>
@@ -15,14 +24,6 @@
 <hr>
 <hr><br><br>
 
-<hr>
-### Donations
-<hr>
-Please donate to keep this project running. <br>
-<p>
-  <a target="_blank" href="https://dashboard.flutterwave.com/donate/cejpesniqs3f"><img src="https://image.flaticon.com/icons/svg/3090/3090757.svg" style="width: 50px; height: auto;" alt="donate"></a>
-</p>
-<hr><br>
 
 <hr>
 ### Sample Codes
