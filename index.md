@@ -67,8 +67,8 @@ Please donate to keep this project running. <br>
 
 <hr>
 ### Sample Codes
+<a href="#csharp">C-Sharp</a> | <a href="#curl">cURL</a> | <a href="#go">Golang</a> | <a href="#js">Javascript</a> | <a href="#node">NodeJS</a> | <a href="#php">PHP</a> | <a href="#python">Python</a> | <a href="#swift">Swift</a> | <a href="#java">Java</a> | <a href="#ruby">Ruby</a> | <a href="#powershell">PowerShell</a><br><br>
 <b>Address:</b> AK-484-9321 or AK4849321<br><br>
-<a href="#csharp">C-Sharp</a>
 
 <hr id="csharp">
 ### C-Sharp
@@ -86,7 +86,7 @@ Console.WriteLine(response.Content);
 ```
 <hr><br>
 
-<hr>
+<hr id="curl">
 ### cURL
 <hr>
 Code:
@@ -97,7 +97,7 @@ curl --location --request POST 'https://ghpgps.herokuapp.com' \
 ```
 <hr><br>
 
-<hr>
+<hr id="go">
 ### Go
 <hr>
 Code:
@@ -136,7 +136,7 @@ func main() {
 ```
 <hr><br>
 
-<hr>
+<hr id="js">
 ### Javscript
 <hr>
 Code:
@@ -162,7 +162,7 @@ fetch("https://ghpgps.herokuapp.com", requestOptions)
 <hr><br>
 
 
-<hr>
+<hr id="node">
 ### NodeJS
 <hr>
 Code:
@@ -185,7 +185,7 @@ request(options, function (error, response) {
 ```
 <hr><br>
 
-<hr>
+<hr id="php">
 ### PHP
 <hr>
 Code:
@@ -216,7 +216,7 @@ echo $response;
 ```
 <hr><br>
 
-<hr>
+<hr id="python">
 ### Python
 <hr>
 Code:
@@ -236,7 +236,7 @@ print(response.text.encode('utf8'))
 ```
 <hr><br>
 
-<hr>
+<hr id="swift">
 ### Swift
 <hr>
 Code:
@@ -268,7 +268,7 @@ semaphore.wait()
 ```
 <hr><br>
 
-<hr>
+<hr id="java">
 ### Java
 <hr>
 Code:
@@ -286,7 +286,7 @@ Response response = client.newCall(request).execute();
 ```
 <hr><br>
 
-<hr>
+<hr id="ruby">
 ### Ruby
 <hr>
 Code:
@@ -308,7 +308,7 @@ puts response.read_body
 ```
 <hr><br>
 
-<hr>
+<hr id="powershell">
 ### PowerShell
 <hr>
 Code:
@@ -322,4 +322,3 @@ $response = Invoke-RestMethod 'https://ghpgps.herokuapp.com' -Method 'POST' -Hea
 $response | ConvertTo-Json
 ```
 <hr><br>
-
