@@ -68,8 +68,9 @@ Please donate to keep this project running. <br>
 <hr>
 ### Sample Codes
 <b>Address:</b> AK-484-9321 or AK4849321<br><br>
+<a href="#csharp">C-Sharp</a>
 
-<hr>
+<hr id="csharp">
 ### C-Sharp
 <hr>
 Code:
@@ -282,6 +283,28 @@ Request request = new Request.Builder()
   .addHeader("Content-Type", "application/x-www-form-urlencoded")
   .build();
 Response response = client.newCall(request).execute();
+```
+<hr><br>
+
+<hr>
+### Ruby
+<hr>
+Code:
+```
+require "uri"
+require "net/http"
+
+url = URI("https://ghpgps.herokuapp.com")
+
+https = Net::HTTP.new(url.host, url.port);
+https.use_ssl = true
+
+request = Net::HTTP::Post.new(url)
+request["Content-Type"] = "application/x-www-form-urlencoded"
+request.body = "address=AK-484-9321"
+
+response = https.request(request)
+puts response.read_body
 ```
 <hr><br>
 
