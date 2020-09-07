@@ -82,6 +82,7 @@ client.Timeout = -1;
 var request = new RestRequest(Method.POST);
 request.AddHeader("Content-Type", "application/x-www-form-urlencoded");
 request.AddParameter("address", "AK-484-9321");
+request.OnBeforeDeserialization = resp => { resp.ContentType = "application/json"; };
 IRestResponse response = client.Execute(request);
 Console.WriteLine(response.Content);
 ```
@@ -156,7 +157,7 @@ var requestOptions = {
 };
 
 fetch("https://ghpgps.herokuapp.com", requestOptions)
-  .then(response => response.text())
+  .then(response => response.json())
   .then(result => console.log(result))
   .catch(error => console.log('error', error));
 ```
@@ -233,7 +234,7 @@ headers = {
 
 response = requests.request("POST", url, headers=headers, data = payload)
 
-print(response.text.encode('utf8'))
+print(response.json())
 ```
 <hr><br>
 
